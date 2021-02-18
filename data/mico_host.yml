@@ -1,0 +1,5 @@
+default: "test"
+mico_host :
+  "test" : "api-test.micoworld.net"
+  "dev"  : "api.micoworld.net"
+  "sandbox" : "sandbox.micoworld.net:80"

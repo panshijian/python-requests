@@ -1,0 +1,134 @@
+{
+  "uid" : "c8785ecc8728444",
+  "name" : "test_upload_image[dict10]",
+  "fullName" : "testcase.test_user_info.TestUserInfo#test_upload_image",
+  "historyId" : "6f22949385ada0e2e14649f06b6755d9",
+  "time" : {
+    "start" : 1612592240837,
+    "stop" : 1612592242981,
+    "duration" : 2144
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestUserInfo",
+    "time" : {
+      "start" : 1612592240832,
+      "stop" : 1612592240835,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取fid",
+      "time" : {
+        "start" : 1612592240837,
+        "stop" : 1612592242981,
+        "duration" : 2144
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ee27a5d086f897ab",
+        "name" : "f9d9f96b-b326-4cf5-9084-e50a7f63104d-attachment.attach",
+        "source" : "ee27a5d086f897ab.attach",
+        "type" : "text/plain",
+        "size" : 38
+      } ],
+      "parameters" : [ {
+        "name" : "dict1",
+        "value" : "{'uid': '100000006'}"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestUserInfo::0",
+    "time" : {
+      "start" : 1612592242985,
+      "stop" : 1612592242985,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "mico个人信息相关"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_info"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserInfo"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-RM5T1M8J"
+  }, {
+    "name" : "thread",
+    "value" : "26052-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_user_info"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dict1",
+    "value" : "{'uid': '100000006'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "98ff816517d96526",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612504165849,
+        "stop" : 1612504167393,
+        "duration" : 1544
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c8785ecc8728444.json",
+  "parameterValues" : [ "{'uid': '100000006'}" ]
+}

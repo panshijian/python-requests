@@ -1,0 +1,172 @@
+{
+  "uid" : "51d33cbda0ed40a2",
+  "name" : "test_get_follow_moment[dict10]",
+  "fullName" : "testcase.test_moment.TestMoment#test_get_follow_moment",
+  "historyId" : "1e26827e1b7e4e391500510f94070dba",
+  "time" : {
+    "start" : 1612592238175,
+    "stop" : 1612592238907,
+    "duration" : 732
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMoment",
+    "time" : {
+      "start" : 1612592238170,
+      "stop" : 1612592238172,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取已关注动态",
+      "time" : {
+        "start" : 1612592238175,
+        "stop" : 1612592238906,
+        "duration" : 731
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5b00efa78442d3a0",
+        "name" : "63d1e284-2af2-44f4-a43d-212cb32ae77a-attachment.attach",
+        "source" : "5b00efa78442d3a0.attach",
+        "type" : "text/plain",
+        "size" : 38
+      }, {
+        "uid" : "a1874caed01bf0c4",
+        "name" : "170b391a-14c6-4c6a-98f2-f62276d622f4-attachment.attach",
+        "source" : "a1874caed01bf0c4.attach",
+        "type" : "text/plain",
+        "size" : 21
+      } ],
+      "parameters" : [ {
+        "name" : "dict1",
+        "value" : "{'uid': '100000006'}"
+      } ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMoment::0",
+    "time" : {
+      "start" : 1612592241757,
+      "stop" : 1612592241757,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "动态相关接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_moment"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMoment"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-RM5T1M8J"
+  }, {
+    "name" : "thread",
+    "value" : "14992-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_moment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dict1",
+    "value" : "{'uid': '100000006'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "88054ff95db3cddf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612504163278,
+        "stop" : 1612504163610,
+        "duration" : 332
+      }
+    }, {
+      "uid" : "92ea124a6ceff7f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612502804177,
+        "stop" : 1612502804804,
+        "duration" : 627
+      }
+    }, {
+      "uid" : "fec58298d40c5fe5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612430731750,
+        "stop" : 1612430731999,
+        "duration" : 249
+      }
+    }, {
+      "uid" : "b26bba8be507b162",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612429943568,
+        "stop" : 1612429943933,
+        "duration" : 365
+      }
+    }, {
+      "uid" : "f24664c3b5e975f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612429831935,
+        "stop" : 1612429832271,
+        "duration" : 336
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "51d33cbda0ed40a2.json",
+  "parameterValues" : [ "{'uid': '100000006'}" ]
+}

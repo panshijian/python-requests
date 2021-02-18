@@ -1,0 +1,142 @@
+{
+  "uid" : "cfcb583ca646125c",
+  "name" : "test_post_moment[dict10]",
+  "fullName" : "testcase.test_moment.TestMoment#test_post_moment",
+  "historyId" : "8c2e9a9b3a8f6270ceb7e691f56b1aeb",
+  "time" : {
+    "start" : 1612429831978,
+    "stop" : 1612429832460,
+    "duration" : 482
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMoment",
+    "time" : {
+      "start" : 1612429831939,
+      "stop" : 1612429831940,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "发布动态",
+      "time" : {
+        "start" : 1612429831978,
+        "stop" : 1612429832459,
+        "duration" : 481
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "内置发布动态调用方法",
+        "time" : {
+          "start" : 1612429831979,
+          "stop" : 1612429832459,
+          "duration" : 480
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "dict1",
+          "value" : "{'uid': '100000006', 'text': 'welcome mico'}"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "be832bdf0fc33b83",
+        "name" : "6f71f427-be90-48e8-bcc6-4cfb6373162c-attachment.attach",
+        "source" : "be832bdf0fc33b83.attach",
+        "type" : "text/plain",
+        "size" : 62
+      } ],
+      "parameters" : [ {
+        "name" : "dict1",
+        "value" : "{'uid': '100000006', 'text': 'welcome mico'}"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMoment::0",
+    "time" : {
+      "start" : 1612429833261,
+      "stop" : 1612429833261,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "动态相关接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_moment"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMoment"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-RM5T1M8J"
+  }, {
+    "name" : "thread",
+    "value" : "25120-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_moment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dict1",
+    "value" : "{'uid': '100000006', 'text': 'welcome mico'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cfcb583ca646125c.json",
+  "parameterValues" : [ "{'uid': '100000006', 'text': 'welcome mico'}" ]
+}

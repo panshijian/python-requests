@@ -1,0 +1,188 @@
+{
+  "uid" : "2f96450d8e048ee5",
+  "name" : "test_change_avatar[dict10]",
+  "fullName" : "testcase.test_userid_search.TestUserInfo#test_change_avatar",
+  "historyId" : "e0998548676878494d84076bbcb5aef3",
+  "time" : {
+    "start" : 1612502736336,
+    "stop" : 1612502736671,
+    "duration" : 335
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestUserInfo",
+    "time" : {
+      "start" : 1612502736310,
+      "stop" : 1612502736313,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "更换头像",
+      "time" : {
+        "start" : 1612502736337,
+        "stop" : 1612502736671,
+        "duration" : 334
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "内置读取json文件调用方法",
+        "time" : {
+          "start" : 1612502736338,
+          "stop" : 1612502736373,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b360d2f9c78ddde7",
+          "name" : "dd5849de-9a77-4f5a-b846-53717c61b5e0-attachment.attach",
+          "source" : "b360d2f9c78ddde7.attach",
+          "type" : "text/plain",
+          "size" : 16
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "内置读取json文件调用方法",
+        "time" : {
+          "start" : 1612502736374,
+          "stop" : 1612502736375,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "78fdb7d5650c3214",
+          "name" : "fd6430a3-0bec-4cd1-b803-00f7bb5af130-attachment.attach",
+          "source" : "78fdb7d5650c3214.attach",
+          "type" : "text/plain",
+          "size" : 16
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "65c4d5ae38a2b275",
+        "name" : "8e43f9df-8090-4846-a0a7-fd4fbe827db1-attachment.attach",
+        "source" : "65c4d5ae38a2b275.attach",
+        "type" : "text/plain",
+        "size" : 38
+      }, {
+        "uid" : "65bcffe99a1bda8",
+        "name" : "92af2c40-68d6-4c56-b8a5-728fcf16290b-attachment.attach",
+        "source" : "65bcffe99a1bda8.attach",
+        "type" : "text/plain",
+        "size" : 19
+      }, {
+        "uid" : "c556fe970a14df45",
+        "name" : "5f04428a-7659-423c-b2de-84171ee7e478-attachment.attach",
+        "source" : "c556fe970a14df45.attach",
+        "type" : "text/plain",
+        "size" : 33
+      } ],
+      "parameters" : [ {
+        "name" : "dict1",
+        "value" : "{'uid': '100000006'}"
+      } ],
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestUserInfo::0",
+    "time" : {
+      "start" : 1612502736673,
+      "stop" : 1612502736673,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "mico个人信息相关"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_userid_search"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserInfo"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-RM5T1M8J"
+  }, {
+    "name" : "thread",
+    "value" : "12932-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_userid_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dict1",
+    "value" : "{'uid': '100000006'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "253e9d7bfd89fd94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612430746749,
+        "stop" : 1612430746970,
+        "duration" : 221
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2f96450d8e048ee5.json",
+  "parameterValues" : [ "{'uid': '100000006'}" ]
+}

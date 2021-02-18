@@ -1,0 +1,110 @@
+getuid:
+  "method": "get"
+  "url": "http://host/api/users/search"
+  "headers":
+      "uid": "111"
+      "did": "5up3rp0w3r"
+  "params":
+      "userId": ${userId}
+profile:
+  "method": "get"
+  "url": "http://host/api/users/profile/mico"
+  "headers":
+      "uid": "111"
+      "did": "5up3rp0w3r"
+  "params":
+      "targetUid": ${targetUid}
+
+"updatainfo":
+  "method": "post"
+  "url": "http://host/api/users/basic"
+  "headers":
+      "uid": ${uid}
+      "did": "5up3rp0w3r"
+  "data":
+      "birthday": "0"
+      "avatar" : "835532925001113608"
+      "description": "123"
+      "displayName": ${displayName}
+      "age": ${age}
+uploadimg:
+  "method": "post"
+  "url": "http://host/api/file/upload"
+  "headers":
+      "uid": ${uid}
+      "did": "5up3rp0w3r"
+  "data":
+      "safe_check": "1"
+  "files":
+       upload: ${upload}
+changeavatar:
+  "method": "post"
+  "url": "http://host/api/users/v3/photowall"
+  "headers":
+       "uid": ${uid}
+       "did": "5up3rp0w3r"
+  "data":
+       "avatar": ${avatar}
+
+get_hot_moments:
+  "method": "get"
+  "url": " http://host/api/circle/top/popular/v3"
+  "headers":
+       "uid": ${uid}
+       "did": "5up3rp0w3r"
+
+get_follow_moments:
+  "method": "get"
+  "url": " http://host/api/circle/following/v3_self"
+  "headers":
+      "uid": ${uid}
+      "did": "5up3rp0w3r"
+
+get_nearby_moments:
+  "method": "get"
+  "url": " http://host/api/circle/recent/v3"
+  "headers":
+      "uid": ${uid}
+      "did": "5up3rp0w3r"
+
+post_moments:
+  "method": "post"
+  "url": " http://host/api/circle/post"
+  "headers":
+      "uid": ${uid}
+      "did": "5up3rp0w3r"
+  data:
+      "privacy": 1
+      "type": 3
+      "text": ${text}
+      "safe_check" : 1
+  "files":
+    -
+       "upload0": ${upload0}
+       "upload1": ${upload1}
+       "upload2": ${upload2}
+like_moments:
+  "method": "post"
+  "url": " http://host/api/circle/like"
+  "headers":
+      "uid": ${uid}
+      "did": "5up3rp0w3r"
+  "data":
+       "cid": ${cid}
+       "ownerId": ${ownerId}
+
+comment_moments:
+  "method": "post"
+  "url": " http://host/api/circle/comment/post/v2"
+  "headers":
+      "uid": ${uid}
+      "did": "5up3rp0w3r"
+  "data":
+       "cid": ${cid}
+       "content": ${content}
+       "ownerId": ${ownerId}
+       "targetUid": ${targetUid}
+
+
+
+

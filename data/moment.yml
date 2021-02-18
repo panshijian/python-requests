@@ -1,0 +1,62 @@
+get_hot_moment:
+  -
+    uid: "100000006"
+  -
+    uid: "100000007"
+get_follow_moment:
+  -
+    uid: "100000006"
+  -
+    uid: "100000007"
+get_nearby_moment:
+  -
+    uid: "100000006"
+  -
+    uid: "100000007"
+post_moment:
+  -
+    uid:  "100000006"
+    text:  "welcome mico"
+  -
+    uid:  "100000007"
+    text:  "welcome mico"
+like_moment:
+  -
+    to_uid: "100000007"
+  -
+    to_uid: "100000010"
+  -
+    to_uid: "100000012"
+  -
+    to_uid: "100000018"
+  -
+    to_uid: "100000014"
+
+
+
+comment_moment_1:
+  -
+    to_uid:  "100000008"
+    content: "hi,how old are you!"
+    ownerId: "100000006"
+    targetUid: "100000006"
+  -
+    to_uid:  "100000009"
+    content: "hi,how old are you!"
+    ownerId: "100000006"
+    targetUid: "100000006"
+
+comments_moment:
+  -
+    to_uid: "100000009"
+    content: "you are pretty!"
+  -
+    to_uid: "100000010"
+    content: "You are a pretty girl!"
+  -
+    to_uid: "100000007"
+    content: "You are a pretty girl!"
+  -
+    to_uid: "100000012"
+    content: "I like you!"
+

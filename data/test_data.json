@@ -1,0 +1,20 @@
+{
+	"get_uid": [
+		{"userId": "1000006"},
+		{"userId": "1000007"},
+		{"userId": "1000008"},
+		{"userId": "1000009"},
+		{"userId": "1000010"}
+	],
+	"get_profile": {
+		"uid": "100000006"
+	},
+	"updata_info": {
+		"uid": "100000006",
+		"displayName": "tester1111111111",
+		"age": "30"
+	},
+	"change_avatar": {
+		"uid": "841485777389854721"
+	}
+}

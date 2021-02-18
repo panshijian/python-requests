@@ -1,0 +1,51 @@
+{
+  "user": {
+    "uid": 100000006,
+    "avatar": "848272767653355528",
+    "gendar": 1,
+    "displayName": "tester123",
+    "description": "123",
+    "birthday": 694224000000,
+    "level": 300,
+    "status": 1,
+    "createTime": 1509955494000,
+    "userId": 1000006,
+    "online": true,
+    "isLive": false,
+    "country": "MO",
+    "signVJ": true,
+    "locale": "en",
+    "grade": 103,
+    "wealthGrade": 0,
+    "goldId": "",
+    "vipStatus": 1,
+    "extraType": {
+      "code": 1,
+      "icon": "ic_official_account"
+    }
+  },
+  "circle": {
+    "uid": 100000006,
+    "cid": 848284504453652483,
+    "text": "welcome mico",
+    "fids": [
+      848284504445788168,
+      848284504445788178,
+      848284504445788188
+    ],
+    "type": 3,
+    "privacy": 1,
+    "likeCount": 0,
+    "commentCount": 0,
+    "videoViewCount": 0,
+    "createTime": 1612429832618,
+    "coordinates": [
+      116.4538864,
+      39.9598094
+    ],
+    "locale": "en",
+    "extend": "",
+    "hide_location": false,
+    "socialString": "{\"cid\":848284504453652483,\"type\":3,\"createTime\":1612429832618,\"fids\":[848284504445788168,848284504445788178,848284504445788188]}"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "uid" : "52a75399c1c7457",
+  "name" : "test_get_nearby_moment[dict10]",
+  "fullName" : "testcase.test_moment.TestMoment#test_get_nearby_moment",
+  "historyId" : "4e9850a2db5f97cb21acabe3bff96582",
+  "time" : {
+    "start" : 1612592238175,
+    "stop" : 1612592238900,
+    "duration" : 725
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMoment",
+    "time" : {
+      "start" : 1612592238170,
+      "stop" : 1612592238172,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取附近动态",
+      "time" : {
+        "start" : 1612592238176,
+        "stop" : 1612592238900,
+        "duration" : 724
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "edb92b86c2626f6f",
+        "name" : "8f1a1be9-e3d4-4a58-bd6e-763e4cb57199-attachment.attach",
+        "source" : "edb92b86c2626f6f.attach",
+        "type" : "text/plain",
+        "size" : 38
+      }, {
+        "uid" : "3b8d387262c8ff73",
+        "name" : "b3345336-ecf2-4b55-8af2-beb861db183d-attachment.attach",
+        "source" : "3b8d387262c8ff73.attach",
+        "type" : "text/plain",
+        "size" : 21
+      } ],
+      "parameters" : [ {
+        "name" : "dict1",
+        "value" : "{'uid': '100000006'}"
+      } ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMoment::0",
+    "time" : {
+      "start" : 1612592242677,
+      "stop" : 1612592242677,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "动态相关接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_moment"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMoment"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-RM5T1M8J"
+  }, {
+    "name" : "thread",
+    "value" : "236-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_moment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dict1",
+    "value" : "{'uid': '100000006'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1ba547a8fb0b0174",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612504163292,
+        "stop" : 1612504163609,
+        "duration" : 317
+      }
+    }, {
+      "uid" : "6ef861ca83e48719",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612502804131,
+        "stop" : 1612502804460,
+        "duration" : 329
+      }
+    }, {
+      "uid" : "de34bd9965276c38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612430731716,
+        "stop" : 1612430731999,
+        "duration" : 283
+      }
+    }, {
+      "uid" : "8a0e0ab33da900e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612429943540,
+        "stop" : 1612429943928,
+        "duration" : 388
+      }
+    }, {
+      "uid" : "14818d7ebf63031b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612429831938,
+        "stop" : 1612429832224,
+        "duration" : 286
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "52a75399c1c7457.json",
+  "parameterValues" : [ "{'uid': '100000006'}" ]
+}

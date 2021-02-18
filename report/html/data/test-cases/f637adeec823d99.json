@@ -1,0 +1,230 @@
+{
+  "uid" : "f637adeec823d99",
+  "name" : "test_comments_moment[dict13]",
+  "fullName" : "testcase.test_moment.TestMoment#test_comments_moment",
+  "historyId" : "8fd6413bf13c556acf00cc011b596494",
+  "time" : {
+    "start" : 1612592240121,
+    "stop" : 1612592240573,
+    "duration" : 452
+  },
+  "status" : "broken",
+  "statusMessage" : "json.decoder.JSONDecodeError: Extra data: line 1 column 3 (char 2)",
+  "statusTrace" : "self = <testcase.test_moment.TestMoment object at 0x000001F13CF04278>\ndict1 = {'content': 'I like you!', 'to_uid': '100000012'}\n\n    @allure.step(\"多条动态评论\")\n    @pytest.mark.parametrize(\"dict1\",load_data(\"comments_moment\"))\n    def test_comments_moment(self,dict1):\n        allure.attach(\"yml文件数据，{}\".format(dict1))\n        to_uid=dict1[\"to_uid\"]\n        content=dict1[\"content\"]\n        # 提取已发布动态的cid\n        cid = self._test_load_json()[0][\"circle\"][\"cid\"]\n        allure.attach(\"提取发动态用户的动态ID，{}\".format(cid))\n        # 提取发布者uid\n        uid = self._test_load_json()[0][\"user\"][\"uid\"]\n        allure.attach(\"提取发动态用户uid，{}\".format(uid))\n>       result = self.moment.comment_moments(uid=to_uid,cid=str(cid),content=str(content),ownerId=str(uid),targetUid=str(uid))\n\ntest_moment.py:127: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\micoapi\\moment.py:64: in comment_moments\n    r = self.send(self.with_open()[\"comment_moments\"])\n..\\Base\\Base.py:63: in send\n    return result.json()\n..\\venv\\lib\\site-packages\\requests\\models.py:900: in json\n    return complexjson.loads(self.text, **kwargs)\nD:\\python37\\lib\\json\\__init__.py:348: in loads\n    return _default_decoder.decode(s)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <json.decoder.JSONDecoder object at 0x000001F13C233710>\ns = '50x - Error\\n'\n_w = <built-in method match of re.Pattern object at 0x000001F13C1C6330>\n\n    def decode(self, s, _w=WHITESPACE.match):\n        \"\"\"Return the Python representation of ``s`` (a ``str`` instance\n        containing a JSON document).\n    \n        \"\"\"\n        obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n        end = _w(s, end).end()\n        if end != len(s):\n>           raise JSONDecodeError(\"Extra data\", s, end)\nE           json.decoder.JSONDecodeError: Extra data: line 1 column 3 (char 2)\n\nD:\\python37\\lib\\json\\decoder.py:340: JSONDecodeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMoment",
+    "time" : {
+      "start" : 1612592238170,
+      "stop" : 1612592238172,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "json.decoder.JSONDecodeError: Extra data: line 1 column 3 (char 2)",
+    "statusTrace" : "self = <testcase.test_moment.TestMoment object at 0x000001F13CF04278>\ndict1 = {'content': 'I like you!', 'to_uid': '100000012'}\n\n    @allure.step(\"多条动态评论\")\n    @pytest.mark.parametrize(\"dict1\",load_data(\"comments_moment\"))\n    def test_comments_moment(self,dict1):\n        allure.attach(\"yml文件数据，{}\".format(dict1))\n        to_uid=dict1[\"to_uid\"]\n        content=dict1[\"content\"]\n        # 提取已发布动态的cid\n        cid = self._test_load_json()[0][\"circle\"][\"cid\"]\n        allure.attach(\"提取发动态用户的动态ID，{}\".format(cid))\n        # 提取发布者uid\n        uid = self._test_load_json()[0][\"user\"][\"uid\"]\n        allure.attach(\"提取发动态用户uid，{}\".format(uid))\n>       result = self.moment.comment_moments(uid=to_uid,cid=str(cid),content=str(content),ownerId=str(uid),targetUid=str(uid))\n\ntest_moment.py:127: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\micoapi\\moment.py:64: in comment_moments\n    r = self.send(self.with_open()[\"comment_moments\"])\n..\\Base\\Base.py:63: in send\n    return result.json()\n..\\venv\\lib\\site-packages\\requests\\models.py:900: in json\n    return complexjson.loads(self.text, **kwargs)\nD:\\python37\\lib\\json\\__init__.py:348: in loads\n    return _default_decoder.decode(s)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <json.decoder.JSONDecoder object at 0x000001F13C233710>\ns = '50x - Error\\n'\n_w = <built-in method match of re.Pattern object at 0x000001F13C1C6330>\n\n    def decode(self, s, _w=WHITESPACE.match):\n        \"\"\"Return the Python representation of ``s`` (a ``str`` instance\n        containing a JSON document).\n    \n        \"\"\"\n        obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n        end = _w(s, end).end()\n        if end != len(s):\n>           raise JSONDecodeError(\"Extra data\", s, end)\nE           json.decoder.JSONDecodeError: Extra data: line 1 column 3 (char 2)\n\nD:\\python37\\lib\\json\\decoder.py:340: JSONDecodeError",
+    "steps" : [ {
+      "name" : "多条动态评论",
+      "time" : {
+        "start" : 1612592240121,
+        "stop" : 1612592240523,
+        "duration" : 402
+      },
+      "status" : "broken",
+      "statusMessage" : "json.decoder.JSONDecodeError: Extra data: line 1 column 3 (char 2)\n",
+      "statusTrace" : "  File \"D:\\MicoApi\\venv\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"D:\\MicoApi\\testcase\\test_moment.py\", line 127, in test_comments_moment\n    result = self.moment.comment_moments(uid=to_uid,cid=str(cid),content=str(content),ownerId=str(uid),targetUid=str(uid))\n  File \"D:\\MicoApi\\micoapi\\moment.py\", line 64, in comment_moments\n    r = self.send(self.with_open()[\"comment_moments\"])\n  File \"D:\\MicoApi\\Base\\Base.py\", line 63, in send\n    return result.json()\n  File \"D:\\MicoApi\\venv\\lib\\site-packages\\requests\\models.py\", line 900, in json\n    return complexjson.loads(self.text, **kwargs)\n  File \"D:\\python37\\lib\\json\\__init__.py\", line 348, in loads\n    return _default_decoder.decode(s)\n  File \"D:\\python37\\lib\\json\\decoder.py\", line 340, in decode\n    raise JSONDecodeError(\"Extra data\", s, end)\n",
+      "steps" : [ {
+        "name" : "内置读取json文件调用方法",
+        "time" : {
+          "start" : 1612592240122,
+          "stop" : 1612592240125,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "55be00734924f43",
+          "name" : "4e223be4-f628-4be6-9595-4e7853786a09-attachment.attach",
+          "source" : "55be00734924f43.attach",
+          "type" : "text/plain",
+          "size" : 16
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "内置读取json文件调用方法",
+        "time" : {
+          "start" : 1612592240126,
+          "stop" : 1612592240129,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6c1c6aa1a35f5e0f",
+          "name" : "912a7932-3cba-4870-a04c-c3e34180962e-attachment.attach",
+          "source" : "6c1c6aa1a35f5e0f.attach",
+          "type" : "text/plain",
+          "size" : 16
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "5e2633c4c5321d5d",
+        "name" : "67352b3d-7d8b-4245-987a-21a7a4ac4f73-attachment.attach",
+        "source" : "5e2633c4c5321d5d.attach",
+        "type" : "text/plain",
+        "size" : 67
+      }, {
+        "uid" : "b88e9538a0bc7030",
+        "name" : "60894b38-b57c-48f3-9b56-8020b6927360-attachment.attach",
+        "source" : "b88e9538a0bc7030.attach",
+        "type" : "text/plain",
+        "size" : 53
+      }, {
+        "uid" : "4946d146b8f58ef",
+        "name" : "24d7b66e-14a0-432a-84e2-8a9f749c55fb-attachment.attach",
+        "source" : "4946d146b8f58ef.attach",
+        "type" : "text/plain",
+        "size" : 36
+      } ],
+      "parameters" : [ {
+        "name" : "dict1",
+        "value" : "{'to_uid': '100000012', 'content': 'I like you!'}"
+      } ],
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMoment::0",
+    "time" : {
+      "start" : 1612592240618,
+      "stop" : 1612592240618,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "动态相关接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_moment"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMoment"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-RM5T1M8J"
+  }, {
+    "name" : "thread",
+    "value" : "32276-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_moment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dict1",
+    "value" : "{'to_uid': '100000012', 'content': 'I like you!'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f21561afe1c26593",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612504164826,
+        "stop" : 1612504165455,
+        "duration" : 629
+      }
+    }, {
+      "uid" : "9accac083e51d590",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612502806210,
+        "stop" : 1612502806930,
+        "duration" : 720
+      }
+    }, {
+      "uid" : "b78d42e5146661a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612430733217,
+        "stop" : 1612430733902,
+        "duration" : 685
+      }
+    }, {
+      "uid" : "22654bd666301d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612429944853,
+        "stop" : 1612429945331,
+        "duration" : 478
+      }
+    }, {
+      "uid" : "b4e813f5ff3b66c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612429832413,
+        "stop" : 1612429832886,
+        "duration" : 473
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f637adeec823d99.json",
+  "parameterValues" : [ "{'to_uid': '100000012', 'content': 'I like you!'}" ]
+}

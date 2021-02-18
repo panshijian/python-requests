@@ -1,0 +1,130 @@
+{
+  "uid" : "57b0c78efbd598d2",
+  "name" : "test_comment_moment[dict11]",
+  "fullName" : "testcase.test_moment.TestMoment#test_comment_moment",
+  "historyId" : "6147501999746f34a80d9d45ce9bd569",
+  "time" : {
+    "start" : 1612429832430,
+    "stop" : 1612429832431,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'builtin_function_or_method' object has no attribute 'randint'",
+  "statusTrace" : "self = <testcase.test_moment.TestMoment object at 0x0000022DEF8EA400>\ndict1 = {'content': 'hi,how old are you!', 'ownerId': '100000006', 'targetUid': '100000006', 'to_uid': '100000009'}\n\n    @allure.step(title=\"对已发布的动态评论\")\n    # @pytest.mark.parametrize((\"from_uid,from_text,to_uid,content,ownerId,targetUid\"),test_load_data(\"comment_moment\"))\n    @pytest.mark.parametrize(\"dict1\",load_data(\"comment_moment_1\"))\n    def test_comment_moment(self,dict1):\n        allure.attach(\"yml文件数据，{}\".format(dict1))\n        to_uid=dict1[\"to_uid\"]\n        content=dict1[\"content\"]\n        ownerId=dict1[\"ownerId\"]\n        targetUid=dict1[\"targetUid\"]\n>       i = random.randint(0, len(self._test_load_json()) - 1)\nE       AttributeError: 'builtin_function_or_method' object has no attribute 'randint'\n\ntest_moment.py:113: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMoment",
+    "time" : {
+      "start" : 1612429831933,
+      "stop" : 1612429831935,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'builtin_function_or_method' object has no attribute 'randint'",
+    "statusTrace" : "self = <testcase.test_moment.TestMoment object at 0x0000022DEF8EA400>\ndict1 = {'content': 'hi,how old are you!', 'ownerId': '100000006', 'targetUid': '100000006', 'to_uid': '100000009'}\n\n    @allure.step(title=\"对已发布的动态评论\")\n    # @pytest.mark.parametrize((\"from_uid,from_text,to_uid,content,ownerId,targetUid\"),test_load_data(\"comment_moment\"))\n    @pytest.mark.parametrize(\"dict1\",load_data(\"comment_moment_1\"))\n    def test_comment_moment(self,dict1):\n        allure.attach(\"yml文件数据，{}\".format(dict1))\n        to_uid=dict1[\"to_uid\"]\n        content=dict1[\"content\"]\n        ownerId=dict1[\"ownerId\"]\n        targetUid=dict1[\"targetUid\"]\n>       i = random.randint(0, len(self._test_load_json()) - 1)\nE       AttributeError: 'builtin_function_or_method' object has no attribute 'randint'\n\ntest_moment.py:113: AttributeError",
+    "steps" : [ {
+      "name" : "对已发布的动态评论",
+      "time" : {
+        "start" : 1612429832430,
+        "stop" : 1612429832431,
+        "duration" : 1
+      },
+      "status" : "broken",
+      "statusMessage" : "AttributeError: 'builtin_function_or_method' object has no attribute 'randint'\n",
+      "statusTrace" : "  File \"D:\\MicoApi\\venv\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"D:\\MicoApi\\testcase\\test_moment.py\", line 113, in test_comment_moment\n    i = random.randint(0, len(self._test_load_json()) - 1)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e6f8f6e8154e876c",
+        "name" : "5c43904b-260c-4d21-9056-711a120c9721-attachment.attach",
+        "source" : "e6f8f6e8154e876c.attach",
+        "type" : "text/plain",
+        "size" : 125
+      } ],
+      "parameters" : [ {
+        "name" : "dict1",
+        "value" : "{'to_uid': '100000009', 'content': 'hi,how old are you!', 'ownerId': '100000006', 'targetUid': '100000006'}"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMoment::0",
+    "time" : {
+      "start" : 1612429832446,
+      "stop" : 1612429832446,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "动态相关接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_moment"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMoment"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-RM5T1M8J"
+  }, {
+    "name" : "thread",
+    "value" : "25284-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_moment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dict1",
+    "value" : "{'to_uid': '100000009', 'content': 'hi,how old are you!', 'ownerId': '100000006', 'targetUid': '100000006'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "57b0c78efbd598d2.json",
+  "parameterValues" : [ "{'to_uid': '100000009', 'content': 'hi,how old are you!', 'ownerId': '100000006', 'targetUid': '100000006'}" ]
+}

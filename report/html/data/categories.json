@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "json.decoder.JSONDecodeError: Extra data: line 1 column 3 (char 2)",
+      "children" : [ {
+        "name" : "test_comments_moment[dict13]",
+        "uid" : "f637adeec823d99",
+        "parentUid" : "5efe6ae761510d2e32b2a9e95cf07974",
+        "status" : "broken",
+        "time" : {
+          "start" : 1612592240121,
+          "stop" : 1612592240573,
+          "duration" : 452
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'to_uid': '100000012', 'content': 'I like you!'}" ]
+      } ],
+      "uid" : "5efe6ae761510d2e32b2a9e95cf07974"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

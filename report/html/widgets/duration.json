@@ -1,0 +1,341 @@
+[ {
+  "uid" : "f637adeec823d99",
+  "name" : "test_comments_moment[dict13]",
+  "time" : {
+    "start" : 1612592240121,
+    "stop" : 1612592240573,
+    "duration" : 452
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b7326f6705b7671c",
+  "name" : "test_like_json[dict11]",
+  "time" : {
+    "start" : 1612592239097,
+    "stop" : 1612592240001,
+    "duration" : 904
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "606043703694b1cd",
+  "name" : "test_get_profile[dict10]",
+  "time" : {
+    "start" : 1612592240651,
+    "stop" : 1612592241036,
+    "duration" : 385
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d13c41309436c14",
+  "name" : "test_updata_info[dict10]",
+  "time" : {
+    "start" : 1612592240623,
+    "stop" : 1612592241035,
+    "duration" : 412
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f96450d8e048ee5",
+  "name" : "test_change_avatar[dict10]",
+  "time" : {
+    "start" : 1612502736336,
+    "stop" : 1612502736671,
+    "duration" : 335
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3553988d82f7c1",
+  "name" : "test_like_moment[dict13]",
+  "time" : {
+    "start" : 1612592239009,
+    "stop" : 1612592240115,
+    "duration" : 1106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff371d8985a50abe",
+  "name" : "test_get_hot_moment[dict10]",
+  "time" : {
+    "start" : 1612592238184,
+    "stop" : 1612592238886,
+    "duration" : 702
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2ba5c1c6316cadd",
+  "name" : "test_get_profile[dict10]",
+  "time" : {
+    "start" : 1612502736333,
+    "stop" : 1612502736696,
+    "duration" : 363
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4acad48e2b4be2c5",
+  "name" : "test_post_moment[dict10]",
+  "time" : {
+    "start" : 1612592238176,
+    "stop" : 1612592239091,
+    "duration" : 915
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3bcbe0f9744b847d",
+  "name" : "test_like_json[dict14]",
+  "time" : {
+    "start" : 1612592240841,
+    "stop" : 1612592242048,
+    "duration" : 1207
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94a007bacc7555d",
+  "name" : "test_like_json[dict13]",
+  "time" : {
+    "start" : 1612592241152,
+    "stop" : 1612592242253,
+    "duration" : 1101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a36bd262d1f60a3d",
+  "name" : "test_like_json[dict10]",
+  "time" : {
+    "start" : 1612592239008,
+    "stop" : 1612592239701,
+    "duration" : 693
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32e875a676bf2d59",
+  "name" : "test_change_avatar[dict10]",
+  "time" : {
+    "start" : 1612592241041,
+    "stop" : 1612592241480,
+    "duration" : 439
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3dd14c2bace529d9",
+  "name" : "test_updata_info[dict10]",
+  "time" : {
+    "start" : 1612502736336,
+    "stop" : 1612502736711,
+    "duration" : 375
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7e79e5565d9a870",
+  "name" : "test_like_json[dict12]",
+  "time" : {
+    "start" : 1612592239097,
+    "stop" : 1612592240103,
+    "duration" : 1006
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8785ecc8728444",
+  "name" : "test_upload_image[dict10]",
+  "time" : {
+    "start" : 1612592240837,
+    "stop" : 1612592242981,
+    "duration" : 2144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "373e02b8fb421bee",
+  "name" : "test_get_uid[dict10]",
+  "time" : {
+    "start" : 1612502736334,
+    "stop" : 1612502736672,
+    "duration" : 338
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "525e0819b6705a5c",
+  "name" : "test_like_moment[dict12]",
+  "time" : {
+    "start" : 1612592239010,
+    "stop" : 1612592240961,
+    "duration" : 1951
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c08e59bdb4802e19",
+  "name" : "test_get_follow_moment[dict11]",
+  "time" : {
+    "start" : 1612592238175,
+    "stop" : 1612592238898,
+    "duration" : 723
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4fa1735834baad5",
+  "name" : "test_get_hot_moment[dict11]",
+  "time" : {
+    "start" : 1612592238173,
+    "stop" : 1612592238886,
+    "duration" : 713
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2299d69976ca61a",
+  "name" : "test_get_uid[dict10]",
+  "time" : {
+    "start" : 1612592241488,
+    "stop" : 1612592252096,
+    "duration" : 10608
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74b5b399daee8c72",
+  "name" : "test_upload_image[dict10]",
+  "time" : {
+    "start" : 1612502736334,
+    "stop" : 1612502738654,
+    "duration" : 2320
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3b114eb8ee655d8",
+  "name" : "test_post_moment[dict11]",
+  "time" : {
+    "start" : 1612592238175,
+    "stop" : 1612592239091,
+    "duration" : 916
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50080dd5de59bbb2",
+  "name" : "test_comment_moment[dict10]",
+  "time" : {
+    "start" : 1612592241148,
+    "stop" : 1612592242674,
+    "duration" : 1526
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "96a8e5133aae6bf2",
+  "name" : "test_like_moment[dict10]",
+  "time" : {
+    "start" : 1612592239007,
+    "stop" : 1612592241139,
+    "duration" : 2132
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca87ec78e20934f",
+  "name" : "test_comment_moment[dict11]",
+  "time" : {
+    "start" : 1612592239708,
+    "stop" : 1612592241469,
+    "duration" : 1761
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16acc6c7d153e9ba",
+  "name" : "test_like_moment[dict14]",
+  "time" : {
+    "start" : 1612592239007,
+    "stop" : 1612592241139,
+    "duration" : 2132
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51d33cbda0ed40a2",
+  "name" : "test_get_follow_moment[dict10]",
+  "time" : {
+    "start" : 1612592238175,
+    "stop" : 1612592238907,
+    "duration" : 732
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95c4a97d964384cf",
+  "name" : "test_comments_moment[dict12]",
+  "time" : {
+    "start" : 1612592240013,
+    "stop" : 1612592240644,
+    "duration" : 631
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4a748a90cb82ea5",
+  "name" : "test_get_nearby_moment[dict11]",
+  "time" : {
+    "start" : 1612592238175,
+    "stop" : 1612592238902,
+    "duration" : 727
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c684ffb778ff217",
+  "name" : "test_like_moment[dict11]",
+  "time" : {
+    "start" : 1612592239007,
+    "stop" : 1612592240831,
+    "duration" : 1824
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "404955d7f438fe06",
+  "name" : "test_comments_moment[dict11]",
+  "time" : {
+    "start" : 1612592240970,
+    "stop" : 1612592241754,
+    "duration" : 784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14f10a152132865c",
+  "name" : "test_comments_moment[dict10]",
+  "time" : {
+    "start" : 1612592240127,
+    "stop" : 1612592240824,
+    "duration" : 697
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52a75399c1c7457",
+  "name" : "test_get_nearby_moment[dict10]",
+  "time" : {
+    "start" : 1612592238175,
+    "stop" : 1612592238900,
+    "duration" : 725
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

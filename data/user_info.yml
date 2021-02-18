@@ -1,0 +1,21 @@
+get_uid:
+  -
+    userId: "1000006"
+  -
+    userId: "1000007"
+get_pfofile:
+  -
+    uid: "100000006"
+updata_profile_info:
+  -
+    uid: "100000006"
+    displayName: "tester123"
+    age: "29"
+get_img_rb:
+  -
+    uid: "100000006"
+  -
+    uid: "100000007"
+change_avatar:
+  -
+    uid: "100000009"

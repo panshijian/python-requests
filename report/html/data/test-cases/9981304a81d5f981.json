@@ -1,0 +1,157 @@
+{
+  "uid" : "9981304a81d5f981",
+  "name" : "test_comment_moment[dict10]",
+  "fullName" : "testcase.test_moment.TestMoment#test_comment_moment",
+  "historyId" : "dc0eda6f3f5eb672529c1fe489eadbb9",
+  "time" : {
+    "start" : 1612429944710,
+    "stop" : 1612429944725,
+    "duration" : 15
+  },
+  "status" : "broken",
+  "statusMessage" : "IndexError: list index out of range",
+  "statusTrace" : "self = <testcase.test_moment.TestMoment object at 0x000001DE6B8659E8>\ndict1 = {'content': 'hi,how old are you!', 'ownerId': '100000006', 'targetUid': '100000006', 'to_uid': '100000008'}\n\n    @allure.step(title=\"对已发布的动态评论\")\n    # @pytest.mark.parametrize((\"from_uid,from_text,to_uid,content,ownerId,targetUid\"),test_load_data(\"comment_moment\"))\n    @pytest.mark.parametrize(\"dict1\",load_data(\"comment_moment_1\"))\n    def test_comment_moment(self,dict1):\n        allure.attach(\"yml文件数据，{}\".format(dict1))\n        to_uid=dict1[\"to_uid\"]\n        content=dict1[\"content\"]\n        ownerId=dict1[\"ownerId\"]\n        targetUid=dict1[\"targetUid\"]\n        i = random.randint(0, len(self._test_load_json()) - 1)\n        allure.attach(\"随机选择用户进行发布动态，{}\".format(i))\n>       post_moment = self._test_post_moment(load_data(\"post_moment\")[i])\nE       IndexError: list index out of range\n\ntest_moment.py:115: IndexError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMoment",
+    "time" : {
+      "start" : 1612429943531,
+      "stop" : 1612429943533,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "IndexError: list index out of range",
+    "statusTrace" : "self = <testcase.test_moment.TestMoment object at 0x000001DE6B8659E8>\ndict1 = {'content': 'hi,how old are you!', 'ownerId': '100000006', 'targetUid': '100000006', 'to_uid': '100000008'}\n\n    @allure.step(title=\"对已发布的动态评论\")\n    # @pytest.mark.parametrize((\"from_uid,from_text,to_uid,content,ownerId,targetUid\"),test_load_data(\"comment_moment\"))\n    @pytest.mark.parametrize(\"dict1\",load_data(\"comment_moment_1\"))\n    def test_comment_moment(self,dict1):\n        allure.attach(\"yml文件数据，{}\".format(dict1))\n        to_uid=dict1[\"to_uid\"]\n        content=dict1[\"content\"]\n        ownerId=dict1[\"ownerId\"]\n        targetUid=dict1[\"targetUid\"]\n        i = random.randint(0, len(self._test_load_json()) - 1)\n        allure.attach(\"随机选择用户进行发布动态，{}\".format(i))\n>       post_moment = self._test_post_moment(load_data(\"post_moment\")[i])\nE       IndexError: list index out of range\n\ntest_moment.py:115: IndexError",
+    "steps" : [ {
+      "name" : "对已发布的动态评论",
+      "time" : {
+        "start" : 1612429944711,
+        "stop" : 1612429944725,
+        "duration" : 14
+      },
+      "status" : "broken",
+      "statusMessage" : "IndexError: list index out of range\n",
+      "statusTrace" : "  File \"D:\\MicoApi\\venv\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"D:\\MicoApi\\testcase\\test_moment.py\", line 115, in test_comment_moment\n    post_moment = self._test_post_moment(load_data(\"post_moment\")[i])\n",
+      "steps" : [ {
+        "name" : "内置读取json文件调用方法",
+        "time" : {
+          "start" : 1612429944711,
+          "stop" : 1612429944713,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "731aeb67dacb56a5",
+          "name" : "85c69ec5-08f2-4fc0-8244-61ffa602afb3-attachment.attach",
+          "source" : "731aeb67dacb56a5.attach",
+          "type" : "text/plain",
+          "size" : 16
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "51bff8d05ca65bd9",
+        "name" : "7faeb7d0-860f-47ec-919d-ad3364cc9dcc-attachment.attach",
+        "source" : "51bff8d05ca65bd9.attach",
+        "type" : "text/plain",
+        "size" : 125
+      }, {
+        "uid" : "ab353223d71292b9",
+        "name" : "c3441668-2db2-4a03-abe4-d271f74c07db-attachment.attach",
+        "source" : "ab353223d71292b9.attach",
+        "type" : "text/plain",
+        "size" : 40
+      } ],
+      "parameters" : [ {
+        "name" : "dict1",
+        "value" : "{'to_uid': '100000008', 'content': 'hi,how old are you!', 'ownerId': '100000006', 'targetUid': '100000006'}"
+      } ],
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMoment::0",
+    "time" : {
+      "start" : 1612429944763,
+      "stop" : 1612429944763,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "动态相关接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_moment"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMoment"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-RM5T1M8J"
+  }, {
+    "name" : "thread",
+    "value" : "8560-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_moment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dict1",
+    "value" : "{'to_uid': '100000008', 'content': 'hi,how old are you!', 'ownerId': '100000006', 'targetUid': '100000006'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9981304a81d5f981.json",
+  "parameterValues" : [ "{'to_uid': '100000008', 'content': 'hi,how old are you!', 'ownerId': '100000006', 'targetUid': '100000006'}" ]
+}

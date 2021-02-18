@@ -1,0 +1,178 @@
+{
+  "uid" : "3185c1d3de4b2058",
+  "name" : "test_comments_moment[dict12]",
+  "fullName" : "testcase.test_moment.TestMoment#test_comments_moment",
+  "historyId" : "0116f396fdedec15f62414a61643b61d",
+  "time" : {
+    "start" : 1612502805802,
+    "stop" : 1612502806391,
+    "duration" : 589
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMoment",
+    "time" : {
+      "start" : 1612502804125,
+      "stop" : 1612502804126,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "多条动态评论",
+      "time" : {
+        "start" : 1612502805803,
+        "stop" : 1612502806391,
+        "duration" : 588
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "内置读取json文件调用方法",
+        "time" : {
+          "start" : 1612502805804,
+          "stop" : 1612502805805,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f97713efdb0d7517",
+          "name" : "31a0c38b-8d03-4f39-b5db-25430918d69d-attachment.attach",
+          "source" : "f97713efdb0d7517.attach",
+          "type" : "text/plain",
+          "size" : 16
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "内置读取json文件调用方法",
+        "time" : {
+          "start" : 1612502805806,
+          "stop" : 1612502805807,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ab0219c52bb7465c",
+          "name" : "5225d621-84b9-47ec-a942-4bd776cea147-attachment.attach",
+          "source" : "ab0219c52bb7465c.attach",
+          "type" : "text/plain",
+          "size" : 16
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "60fd884beee91300",
+        "name" : "23b1b615-067d-45ff-82d8-1947497a057c-attachment.attach",
+        "source" : "60fd884beee91300.attach",
+        "type" : "text/plain",
+        "size" : 78
+      }, {
+        "uid" : "ec2590afaadfc4b0",
+        "name" : "de228b03-e6b5-4c70-813f-7114c75a6eb9-attachment.attach",
+        "source" : "ec2590afaadfc4b0.attach",
+        "type" : "text/plain",
+        "size" : 53
+      }, {
+        "uid" : "9bba060d27e8029d",
+        "name" : "91cbb9ba-504e-4238-bcad-78c5044d2cea-attachment.attach",
+        "source" : "9bba060d27e8029d.attach",
+        "type" : "text/plain",
+        "size" : 36
+      } ],
+      "parameters" : [ {
+        "name" : "dict1",
+        "value" : "{'to_uid': '100000007', 'content': 'You are a pretty girl!'}"
+      } ],
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMoment::0",
+    "time" : {
+      "start" : 1612502806392,
+      "stop" : 1612502806392,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "动态相关接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_moment"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMoment"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-RM5T1M8J"
+  }, {
+    "name" : "thread",
+    "value" : "21692-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_moment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dict1",
+    "value" : "{'to_uid': '100000007', 'content': 'You are a pretty girl!'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3185c1d3de4b2058.json",
+  "parameterValues" : [ "{'to_uid': '100000007', 'content': 'You are a pretty girl!'}" ]
+}

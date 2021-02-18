@@ -1,0 +1,163 @@
+{
+  "uid" : "a20f5725d608b7cc",
+  "name" : "test_like_moment[dict13]",
+  "fullName" : "testcase.test_moment.TestMoment#test_like_moment",
+  "historyId" : "d2d5e86adf199c6a5550f7a56909eddf",
+  "time" : {
+    "start" : 1612429943977,
+    "stop" : 1612429944062,
+    "duration" : 85
+  },
+  "status" : "broken",
+  "statusMessage" : "IndexError: list index out of range",
+  "statusTrace" : "self = <testcase.test_moment.TestMoment object at 0x000001BB5294D6D8>\ndict1 = {'to_uid': '100000018'}\n\n    @allure.step(title=\"对已发布的动态点赞\")\n    # @pytest.mark.parametrize((\"from_uid,from_text,to_uid\"),test_load_data(\"like_moment\"))\n    @pytest.mark.parametrize(\"dict1\", load_data(\"like_moment\"))\n    def test_like_moment(self,dict1):\n        allure.attach(\"yml文件数据，{}\".format(dict1))\n        to_uid = dict1[\"to_uid\"]\n        allure.attach(\"来自点赞用户uid，{}\".format(to_uid))\n        i = random.randint(0, len(self._test_load_json()) - 1)\n        allure.attach(\"随机选择用户发布动态，{}\".format(i))\n>       post_moment = self._test_post_moment(load_data(\"post_moment\")[i])\nE       IndexError: list index out of range\n\ntest_moment.py:87: IndexError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMoment",
+    "time" : {
+      "start" : 1612429943529,
+      "stop" : 1612429943531,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "IndexError: list index out of range",
+    "statusTrace" : "self = <testcase.test_moment.TestMoment object at 0x000001BB5294D6D8>\ndict1 = {'to_uid': '100000018'}\n\n    @allure.step(title=\"对已发布的动态点赞\")\n    # @pytest.mark.parametrize((\"from_uid,from_text,to_uid\"),test_load_data(\"like_moment\"))\n    @pytest.mark.parametrize(\"dict1\", load_data(\"like_moment\"))\n    def test_like_moment(self,dict1):\n        allure.attach(\"yml文件数据，{}\".format(dict1))\n        to_uid = dict1[\"to_uid\"]\n        allure.attach(\"来自点赞用户uid，{}\".format(to_uid))\n        i = random.randint(0, len(self._test_load_json()) - 1)\n        allure.attach(\"随机选择用户发布动态，{}\".format(i))\n>       post_moment = self._test_post_moment(load_data(\"post_moment\")[i])\nE       IndexError: list index out of range\n\ntest_moment.py:87: IndexError",
+    "steps" : [ {
+      "name" : "对已发布的动态点赞",
+      "time" : {
+        "start" : 1612429943977,
+        "stop" : 1612429944061,
+        "duration" : 84
+      },
+      "status" : "broken",
+      "statusMessage" : "IndexError: list index out of range\n",
+      "statusTrace" : "  File \"D:\\MicoApi\\venv\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"D:\\MicoApi\\testcase\\test_moment.py\", line 87, in test_like_moment\n    post_moment = self._test_post_moment(load_data(\"post_moment\")[i])\n",
+      "steps" : [ {
+        "name" : "内置读取json文件调用方法",
+        "time" : {
+          "start" : 1612429944010,
+          "stop" : 1612429944013,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c288a4718f0752c3",
+          "name" : "fe2aa126-98fb-4062-a3bd-ebe07e789783-attachment.attach",
+          "source" : "c288a4718f0752c3.attach",
+          "type" : "text/plain",
+          "size" : 16
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "dcb6dc3916057b6e",
+        "name" : "b87d8dba-c145-4abe-9851-07fa2a884b45-attachment.attach",
+        "source" : "dcb6dc3916057b6e.attach",
+        "type" : "text/plain",
+        "size" : 41
+      }, {
+        "uid" : "dac1480b9a61888e",
+        "name" : "2e859c2a-1ba5-4c5a-a27c-7f96c023fc69-attachment.attach",
+        "source" : "dac1480b9a61888e.attach",
+        "type" : "text/plain",
+        "size" : 33
+      }, {
+        "uid" : "3438e785fa39f09c",
+        "name" : "9547e691-ee74-46f0-b2bb-f0c8fb4bf2c1-attachment.attach",
+        "source" : "3438e785fa39f09c.attach",
+        "type" : "text/plain",
+        "size" : 34
+      } ],
+      "parameters" : [ {
+        "name" : "dict1",
+        "value" : "{'to_uid': '100000018'}"
+      } ],
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMoment::0",
+    "time" : {
+      "start" : 1612429944645,
+      "stop" : 1612429944645,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "动态相关接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_moment"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMoment"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-RM5T1M8J"
+  }, {
+    "name" : "thread",
+    "value" : "23308-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_moment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dict1",
+    "value" : "{'to_uid': '100000018'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a20f5725d608b7cc.json",
+  "parameterValues" : [ "{'to_uid': '100000018'}" ]
+}

@@ -1,0 +1,136 @@
+{
+  "uid" : "1090acb84b841df2",
+  "name" : "test_like_moment[dict11]",
+  "fullName" : "testcase.test_moment.TestMoment#test_like_moment",
+  "historyId" : "6cb9ae851fff04f6bf2610a6bae52f3b",
+  "time" : {
+    "start" : 1612429832269,
+    "stop" : 1612429832275,
+    "duration" : 6
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'builtin_function_or_method' object has no attribute 'randint'",
+  "statusTrace" : "self = <testcase.test_moment.TestMoment object at 0x000002D838893630>\ndict1 = {'to_uid': '100000010'}\n\n    @allure.step(title=\"对已发布的动态点赞\")\n    # @pytest.mark.parametrize((\"from_uid,from_text,to_uid\"),test_load_data(\"like_moment\"))\n    @pytest.mark.parametrize(\"dict1\", load_data(\"like_moment\"))\n    def test_like_moment(self,dict1):\n        allure.attach(\"yml文件数据，{}\".format(dict1))\n        to_uid = dict1[\"to_uid\"]\n        allure.attach(\"来自点赞用户uid，{}\".format(to_uid))\n>       i = random.randint(0, len(self._test_load_json()) - 1)\nE       AttributeError: 'builtin_function_or_method' object has no attribute 'randint'\n\ntest_moment.py:85: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMoment",
+    "time" : {
+      "start" : 1612429831933,
+      "stop" : 1612429831934,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'builtin_function_or_method' object has no attribute 'randint'",
+    "statusTrace" : "self = <testcase.test_moment.TestMoment object at 0x000002D838893630>\ndict1 = {'to_uid': '100000010'}\n\n    @allure.step(title=\"对已发布的动态点赞\")\n    # @pytest.mark.parametrize((\"from_uid,from_text,to_uid\"),test_load_data(\"like_moment\"))\n    @pytest.mark.parametrize(\"dict1\", load_data(\"like_moment\"))\n    def test_like_moment(self,dict1):\n        allure.attach(\"yml文件数据，{}\".format(dict1))\n        to_uid = dict1[\"to_uid\"]\n        allure.attach(\"来自点赞用户uid，{}\".format(to_uid))\n>       i = random.randint(0, len(self._test_load_json()) - 1)\nE       AttributeError: 'builtin_function_or_method' object has no attribute 'randint'\n\ntest_moment.py:85: AttributeError",
+    "steps" : [ {
+      "name" : "对已发布的动态点赞",
+      "time" : {
+        "start" : 1612429832269,
+        "stop" : 1612429832271,
+        "duration" : 2
+      },
+      "status" : "broken",
+      "statusMessage" : "AttributeError: 'builtin_function_or_method' object has no attribute 'randint'\n",
+      "statusTrace" : "  File \"D:\\MicoApi\\venv\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"D:\\MicoApi\\testcase\\test_moment.py\", line 85, in test_like_moment\n    i = random.randint(0, len(self._test_load_json()) - 1)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "de52dd1be773c1b3",
+        "name" : "690471e3-3450-4aa7-8457-9c16946a5492-attachment.attach",
+        "source" : "de52dd1be773c1b3.attach",
+        "type" : "text/plain",
+        "size" : 41
+      }, {
+        "uid" : "1a9ad5db1a722e94",
+        "name" : "cf82e30b-bfea-4a3a-94f4-84d60dff5f91-attachment.attach",
+        "source" : "1a9ad5db1a722e94.attach",
+        "type" : "text/plain",
+        "size" : 33
+      } ],
+      "parameters" : [ {
+        "name" : "dict1",
+        "value" : "{'to_uid': '100000010'}"
+      } ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMoment::0",
+    "time" : {
+      "start" : 1612429833078,
+      "stop" : 1612429833078,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "动态相关接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_moment"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMoment"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-RM5T1M8J"
+  }, {
+    "name" : "thread",
+    "value" : "33708-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_moment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dict1",
+    "value" : "{'to_uid': '100000010'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1090acb84b841df2.json",
+  "parameterValues" : [ "{'to_uid': '100000010'}" ]
+}

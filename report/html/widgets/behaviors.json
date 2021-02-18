@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "26648871d9026cbbf257c45521d38620",
+    "name" : "动态相关接口",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 23,
+      "unknown" : 0,
+      "total" : 24
+    }
+  }, {
+    "uid" : "7d484df7ea18ce821c33113c9b47691d",
+    "name" : "mico个人信息相关",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 10
+    }
+  } ]
+}

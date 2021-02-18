@@ -1,0 +1,184 @@
+{
+  "uid" : "15e6c67667f4f92d",
+  "name" : "test_like_json[dict10]",
+  "fullName" : "testcase.test_moment.TestMoment#test_like_json",
+  "historyId" : "e5ee5353627f3d9987eaeb8bbb29df4c",
+  "time" : {
+    "start" : 1612429832269,
+    "stop" : 1612429832950,
+    "duration" : 681
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMoment",
+    "time" : {
+      "start" : 1612429831937,
+      "stop" : 1612429831939,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "对已发布的动态多条点赞",
+      "time" : {
+        "start" : 1612429832269,
+        "stop" : 1612429832950,
+        "duration" : 681
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "内置读取json文件调用方法",
+        "time" : {
+          "start" : 1612429832276,
+          "stop" : 1612429832278,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "92a87330611eda91",
+          "name" : "e8c2a256-19b0-48df-966a-2d9ae0593241-attachment.attach",
+          "source" : "92a87330611eda91.attach",
+          "type" : "text/plain",
+          "size" : 16
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "内置读取json文件调用方法",
+        "time" : {
+          "start" : 1612429832279,
+          "stop" : 1612429832281,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "15ebd2d141b9ca5c",
+          "name" : "d1cc7e44-241a-46d7-84be-854aa2f8bd4d-attachment.attach",
+          "source" : "15ebd2d141b9ca5c.attach",
+          "type" : "text/plain",
+          "size" : 16
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "543784160a1b0ac0",
+        "name" : "e8916a8f-c5f0-4b6f-861d-fffe3c2f6977-attachment.attach",
+        "source" : "543784160a1b0ac0.attach",
+        "type" : "text/plain",
+        "size" : 41
+      }, {
+        "uid" : "4e1fa88f953828f",
+        "name" : "8c8f682b-5a61-47c3-b9a3-2c6a7f4b8beb-attachment.attach",
+        "source" : "4e1fa88f953828f.attach",
+        "type" : "text/plain",
+        "size" : 33
+      }, {
+        "uid" : "402efd8622f5abe6",
+        "name" : "7ac5bade-7986-4bce-8f43-ae2c291fc42c-attachment.attach",
+        "source" : "402efd8622f5abe6.attach",
+        "type" : "text/plain",
+        "size" : 53
+      }, {
+        "uid" : "11fac6917202e1a3",
+        "name" : "571b4e6a-a775-4e3e-b12e-184712693e49-attachment.attach",
+        "source" : "11fac6917202e1a3.attach",
+        "type" : "text/plain",
+        "size" : 36
+      } ],
+      "parameters" : [ {
+        "name" : "dict1",
+        "value" : "{'to_uid': '100000007'}"
+      } ],
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMoment::0",
+    "time" : {
+      "start" : 1612429833596,
+      "stop" : 1612429833596,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "动态相关接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_moment"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMoment"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-RM5T1M8J"
+  }, {
+    "name" : "thread",
+    "value" : "1768-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_moment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dict1",
+    "value" : "{'to_uid': '100000007'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "15e6c67667f4f92d.json",
+  "parameterValues" : [ "{'to_uid': '100000007'}" ]
+}
